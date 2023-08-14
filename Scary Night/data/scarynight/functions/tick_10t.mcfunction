@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:glass",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:stone",Count:3b}},distance=..0.5] if entity @e[type=item,nbt={Item:{id:"minecraft:coal",Count:1b}},distance=..0.5] run function scarynight:__generated__/block/6
+schedule function scarynight:tick_10t 10t

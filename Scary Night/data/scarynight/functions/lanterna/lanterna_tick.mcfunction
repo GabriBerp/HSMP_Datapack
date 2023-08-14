@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={Lanterna_ligada=1}] at @s positioned ^ ^1.5 ^.5 run function scarynight:lanterna/ray_cast
