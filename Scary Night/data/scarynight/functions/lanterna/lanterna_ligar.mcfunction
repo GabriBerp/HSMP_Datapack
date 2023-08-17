@@ -1,3 +1,0 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={Lanterna_usada=1..,Lanterna_ligada=0}] run scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={Lanterna_usada=1..,Lanterna_ligada=0}] Lanterna_ligada 1
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={Lanterna_usada=1..,Lanterna_ligada=1}] run function scarynight:lanterna/lanterna_on
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={Lanterna_usada=1..,Lanterna_ligada=1}] run scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={Lanterna_usada=1..,Lanterna_ligada=1}] Lanterna_usada 0

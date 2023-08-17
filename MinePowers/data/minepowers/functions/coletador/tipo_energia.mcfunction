@@ -1,0 +1,4 @@
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:copper_ingot",tag:{display:{Lore:['[{"text":"Perigo, não chegue perto demais!"}]']}}}]}] if score @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:copper_ingot",tag:{display:{Lore:['[{"text":"Perigo, não chegue perto demais!"}]']}}}]},sort=nearest,limit=1] Elemento matches 0 run title @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:copper_ingot",tag:{display:{Lore:['[{"text":"Perigo, não chegue perto demais!"}]']}}}]},sort=nearest,limit=1] actionbar ["",{"text":"Amostra de ","bold":true,"color":"gold"},{"text":"Energia","bold":true,"color":"#A57716"},{"text":" Absorvida com sucesso","bold":true,"color":"gold"}]
+playsound block.beacon.activate block @a ~ ~ ~ 1 1 1
+scoreboard players set @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:copper_ingot",tag:{display:{Lore:['[{"text":"Perigo, não chegue perto demais!"}]']}}}]},sort=nearest,limit=1] Elemento 6
+item replace entity @a[sort=nearest,limit=1] weapon.offhand with air

@@ -1,1 +1,0 @@
-playsound block.stone_button.click_on block @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={Lanterna_usada=1..}] ~ ~ ~ 1 1 1

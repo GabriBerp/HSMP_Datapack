@@ -1,2 +1,0 @@
-execute positioned ^ ^ ^ unless block ^ ^ ^.5 #scarynight:flashlight_through_blocks unless entity @e[type=marker,tag=flashlight,distance=..1.0] run summon marker ~ ~ ~ {Tags:["flashlight"]}
-execute as @s[distance=..100] positioned ^ ^ ^0.5 if block ~ ~ ~ #scarynight:flashlight_through_blocks run function scarynight:lanterna/ray_cast

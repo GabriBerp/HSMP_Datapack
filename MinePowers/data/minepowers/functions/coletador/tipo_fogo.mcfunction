@@ -1,0 +1,4 @@
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:magma_cream",tag:{display:{Lore:['[{"text":"Carrega uma chama intensa"}]']}}}]}] if score @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:magma_cream",tag:{display:{Lore:['[{"text":"Carrega uma chama intensa"}]']}}}]},sort=nearest,limit=1] Elemento matches 0 run title @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:magma_cream",tag:{display:{Lore:['[{"text":"Carrega uma chama intensa"}]']}}}]},sort=nearest,limit=1] actionbar ["",{"text":"Amostra de ","bold":true,"color":"red"},{"text":"Fogo","bold":true,"color":"dark_red"},{"text":" Absorvida com sucesso","bold":true,"color":"red"}]
+playsound block.beacon.activate block @a ~ ~ ~ 1 1 1
+scoreboard players set @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:magma_cream",tag:{display:{Lore:['[{"text":"Carrega uma chama intensa"}]']}}}]},sort=nearest,limit=1] Elemento 2
+item replace entity @a[sort=nearest,limit=1] weapon.offhand with air
