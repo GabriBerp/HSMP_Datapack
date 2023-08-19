@@ -1,4 +1,5 @@
-execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:echo_shard",tag:{display:{Lore:['[{"text":"Um cristal carregado de sons estranhos"}]']}}}]}] if score @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:echo_shard",tag:{display:{Lore:['[{"text":"Um cristal carregado de sons estranhos"}]']}}}]},sort=nearest,limit=1] Elemento matches 0 run title @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:echo_shard",tag:{display:{Lore:['[{"text":"Um cristal carregado de sons estranhos"}]']}}}]},sort=nearest,limit=1] actionbar ["",{"text":"Amostra de ","bold":true,"color":"light_purple"},{"text":"Som","bold":true,"color":"dark_purple"},{"text":" Absorvida com sucesso","bold":true,"color":"light_purple"}]
-playsound block.beacon.activate block @a ~ ~ ~ 1 1 1
-scoreboard players set @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:echo_shard",tag:{display:{Lore:['[{"text":"Um cristal carregado de sons estranhos"}]']}}}]},sort=nearest,limit=1] Elemento 3
-item replace entity @a[sort=nearest,limit=1] weapon.offhand with air
+execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 0 run title @a[sort=nearest,limit=1] actionbar ["",{"text":"Amostra de ","bold":true,"color":"light_purple"},{"text":"Som","bold":true,"color":"dark_purple"},{"text":" Absorvida com sucesso","bold":true,"color":"light_purple"}]
+execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 0 run playsound block.beacon.activate block @a ~ ~ ~ 1 1 1
+execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 0 run item replace entity @a[sort=nearest,limit=1] weapon.offhand with air
+execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 0 run scoreboard players set @a[sort=nearest,limit=1] Elemento 3
+execute as @a[sort=nearest,limit=1] unless score @a[sort=nearest,limit=1] Elemento matches 0 run scoreboard players set @a[sort=nearest,limit=1] onetimecode 1
