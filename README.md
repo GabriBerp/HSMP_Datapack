@@ -17,6 +17,9 @@ O elemento de veneno é o elemento de Nº1 no datapack, ele altera os ataques de
 #### Habilidades
 **Sistema Imunologico:** o usuario fica imune a veneno</br>
 **Fome infinita:** o usuario fica sempre com fome, sempre precisando estar comendo</br>
+| Nivel 2 | Nivel 3 | Despertar |
+| --- | --- | --- |
+| a fome do usuario fica mais fraca | entidades proximas ficam evenenadas | |
 ### Fogo
 ![image](https://github.com/GaryLickt/MinePowers_Datapack/assets/70419113/f8d28ad5-3167-46a3-bb7d-62a9b4e9f924)</br>
 **item necessario para obter o elemento do fogo**</br>
