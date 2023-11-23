@@ -1,0 +1,14 @@
+{
+    "name": "hsmp:oficina_olho",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "hsmp:oficina_olho/oficina_olho",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+    }
+    ]
+}

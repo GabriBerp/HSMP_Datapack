@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:quartz_bricks"
+      },
+      "title": "A Oficina",
+      "description": "isso pode ser util para alguma coisa",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "hsmp:a_torre",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "hsmp:oficina_olho"
+            }
+          }
+        }
+      }
+    }
+  }
+  

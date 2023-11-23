@@ -1,0 +1,14 @@
+{
+    "name": "hsmp:mega_portal",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "hsmp:mega_portal/mega_portal",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+    }
+    ]
+}

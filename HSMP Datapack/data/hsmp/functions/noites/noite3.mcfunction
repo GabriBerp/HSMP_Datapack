@@ -1,0 +1,1 @@
+tellraw @a {"text": "Não entre na agua.. ela não é tão segura quanto parece..","color": "dark_red","bold": true,"italic": true}

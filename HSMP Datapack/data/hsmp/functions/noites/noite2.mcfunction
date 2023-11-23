@@ -1,0 +1,1 @@
+tellraw @a {"text": "Cuidado ao entrar nas cavernas.. ele está la te esperando..","color": "dark_red","bold": true,"italic": true}

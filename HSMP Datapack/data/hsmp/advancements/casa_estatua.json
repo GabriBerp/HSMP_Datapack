@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:blackstone"
+      },
+      "title": "A Casa das Estatuas",
+      "description": "que lugar mais estranho..",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "hsmp:piscou_perdeu",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "structure": "hsmp:labirinto_grande"
+            }
+          }
+        }
+      }
+    }
+  }
+  

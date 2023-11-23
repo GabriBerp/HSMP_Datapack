@@ -1,0 +1,14 @@
+{
+    "name": "hsmp:labirinto_grande",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "hsmp:labi2/labi2",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+    }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "hsmp:torre_olho",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "hsmp:torre_olho/torre_olho",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+    }
+    ]
+}

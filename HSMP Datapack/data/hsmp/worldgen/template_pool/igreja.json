@@ -1,0 +1,14 @@
+{
+    "name": "hsmp:igreja",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "hsmp:igreja/igreja",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+    }
+    ]
+}

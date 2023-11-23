@@ -1,5 +1,0 @@
-execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 1.. run title @a[sort=nearest,limit=1] actionbar ["",{"text":"A ","bold":true,"color":"yellow"},{"text":"Fonte de Poder","bold":true,"color":"#FBB0FE"},{"text":" reage perto de você, seu elemento desaparece..","bold":true,"color":"yellow"}]
-execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 1.. run playsound block.beacon.deactivate block @a ~ ~ ~ 1 1 1
-execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 1.. run item replace entity @a[sort=nearest,limit=1] weapon.offhand with air
-execute as @a[sort=nearest,limit=1] if score @a[sort=nearest,limit=1] Elemento matches 1.. run scoreboard players set @a[sort=nearest,limit=1] Elemento 0
-execute as @a[sort=nearest,limit=1] unless score @a[sort=nearest,limit=1] Elemento matches 1.. run scoreboard players set @a[sort=nearest,limit=1] onetimecode 1

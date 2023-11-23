@@ -1,0 +1,14 @@
+{
+    "biomes": "warped_forest",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "type": "minecraft:jigsaw",
+    "start_pool": "hsmp:igreja",
+    "size": 7,
+    "step": "underground_decoration",
+    "start_height": {
+      "absolute": 33
+    },
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+  }

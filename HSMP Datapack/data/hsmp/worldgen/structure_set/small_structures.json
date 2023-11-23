@@ -1,0 +1,17 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 15,
+        "separation": 8,
+        "salt": 311639950,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "hsmp:entrada_antiga",
+        "weight": 3
+    },
+    {
+        "structure": "hsmp:cruz_antiga",
+        "weight": 2
+    }]
+}

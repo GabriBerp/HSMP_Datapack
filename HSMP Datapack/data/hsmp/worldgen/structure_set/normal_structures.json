@@ -1,0 +1,22 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 34,
+        "separation": 5,
+        "salt": 311639950,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "hsmp:igreja_abandonada",
+        "weight": 1
+    },{
+        "structure": "hsmp:labirinto_pequeno",
+        "weight": 2
+    },{
+        "structure": "hsmp:oficina_olho",
+        "weight": 2
+    },{
+        "structure": "hsmp:templo_antigo",
+        "weight": 1
+    }]
+}

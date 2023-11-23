@@ -1,0 +1,1 @@
+execute if predicate hsmp:spawnar_stalker run function hsmp:stalker/spawn

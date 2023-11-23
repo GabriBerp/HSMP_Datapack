@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:heart_of_the_sea"
+      },
+      "title": "Fale com ele..",
+      "description": "desperte o Vigilante na Oficina, deixe que ele termine seu serviço",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "hsmp:oficina_olho",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

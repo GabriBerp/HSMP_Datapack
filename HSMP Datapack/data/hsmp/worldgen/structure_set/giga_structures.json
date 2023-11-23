@@ -1,0 +1,19 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 60,
+        "separation": 12,
+        "salt": 311639950,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "hsmp:mega_portal",
+        "weight": 1
+    },{
+        "structure": "hsmp:labirinto_grande",
+        "weight": 2
+    },{
+        "structure": "hsmp:torre_olho",
+        "weight": 2
+    }]
+}

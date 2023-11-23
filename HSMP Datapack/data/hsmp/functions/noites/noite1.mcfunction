@@ -1,0 +1,1 @@
+tellraw @a {"text": "O Stalker está a solta, evite olhar muito em seus olhos..","color": "dark_red","bold": true,"italic": true}
